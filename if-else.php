@@ -1,6 +1,6 @@
 <?php 
 
-$usia = 23;
+$usia = 90;
 
 if($usia >= 0 && $usia <= 12) {
     echo"Kategori Usia: Anak-anak";
@@ -8,10 +8,10 @@ if($usia >= 0 && $usia <= 12) {
     echo "Kategori Usia: Remaja";
 }elseif ($usia >= 18 && $usia <= 59) {
     echo "Kategori Usia: Dewasa";
-}elseif ($usia >= 60){
+}elseif ($usia >= 60 && $usia <= 80) {
     echo "Kategori Usia: Lansia";
 }else {
-    echo "Silakan masukkan usia yang valid.";
+    echo "Silakan masukkan usia yang valid";
 }
 
 ?>
